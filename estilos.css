@@ -149,7 +149,16 @@ main {
   display    : inline-block;
 }
 
-
+#ultimas-postagens .novidade::before {
+  content         : "Novidade!";
+  display         : inline-block;
+  border-radius   : 5px;
+  padding         : 3px;
+  margin-right    : 1em;
+  background-color: rgba(0, 204, 147, 0.53);
+  color           : white;
+  text-shadow     : 1px 1px black;
+}
 
 
 /* --- Principal >> Nuvem de tags --- */
