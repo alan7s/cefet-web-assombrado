@@ -305,3 +305,31 @@ footer .logo-rodape {
   border-color: currentColor;
   box-shadow  : none;
 }
+
+
+
+
+
+/* --- Famtasminhas --- */
+.boo{
+  position: fixed;
+  opacity:0.1;
+  width: 40px
+}
+
+.boo:hover{
+  opacity: 1;
+  transform: scaleX(-1);
+}
+
+.boo1{
+  top: 100px;
+}
+
+.boo2{
+  bottom: 100px;
+}
+
+.boo3{
+  right: 100px;
+}
