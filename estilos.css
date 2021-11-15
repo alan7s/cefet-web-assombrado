@@ -184,6 +184,8 @@ main {
   box-shadow       : -4px 0 10px rgba(0, 0, 0, 0.5);
   text-align       : center;
   box-sizing       : border-box;
+  position: sticky;
+  top: 0px;
 }
 
 #tags h1 {
@@ -313,7 +315,7 @@ footer .logo-rodape {
 /* --- Famtasminhas --- */
 .boo{
   position: fixed;
-  opacity:0.1;
+  opacity:0.3;
   width: 40px
 }
 
