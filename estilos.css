@@ -105,10 +105,16 @@ main {
   margin-left : 2.5%;
   margin-right: 2.5%;
   display     : inline-block;
+  position: relative;
 }
 
 #posts-principais .post .titulo {
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 1px black;
+  position: absolute;
+  top: 0px;
+  padding: 10px;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
 }
 
 #posts-principais .post img {
@@ -119,6 +125,11 @@ main {
   margin-bottom: .5em;
 }
 
+#posts-principais .titulo:hover{
+  top: 0px;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 
 
